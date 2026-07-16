@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&family=Pacifico&display=swap");
 
 /* Variables */
 
-:root{
-    --text-black: #000;
-    --text-white: #FFF;
-    --background-corail: #F78A76;
-    --background-bleu: #25A2C3;
+:root {
+  --text-black: #000;
+  --text-white: #fff;
+  --background-corail: #f78a76;
+  --background-bleu: #25a2c3;
 
-    --font-logo: "Pacifico", sans-serif;
-    --font-text: "Open Sans", sans-serif;
-    --font-btn: "Montserrat", sans-serif;
+  --font-logo: "Pacifico", sans-serif;
+  --font-text: "Open Sans", sans-serif;
+  --font-btn: "Montserrat", sans-serif;
+
+  font-size: 16px;
 }
 
 /* Reset */
-html {
-    font-size: 16px;
+
+
+/* Header */
+
+.header__title{
+    font-family: var(--font-logo);
+    color: var(--background-corail);
 }
