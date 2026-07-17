@@ -9,19 +9,150 @@
   <body>
     <header class="header">
       <h1 class="header__title">Photo Intenso</h1>
-      <nav class="header__nav"><ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">À propos</a></li>
-        <li><a href="#">Galerie</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul></nav>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Galerie</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-    <section class="hero-block"></section>
-    <section class="central-block"></section>
-    <section class="cta-block"></section>
-    <section class="article-block"></section>
+      <section class="hero">
+        <h2 class="hero__title">Des images incroyables</h2>
+        <p class="hero__text">
+          Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod
+          sed arcu cras consecuat lorem ipsum dolor sit amet.
+        </p>
+        <a href="#" class="hero__btn">PLUS D'INFOS</a>
+      </section>
+      <section class="central">
+        <div class="central__section">
+          <h3 class="central__title">Paysages</h3>
+          <p class="central__text">
+            Morbi in sem quis dui plalorem ipsum euismod in, pharetra sed
+            ultricies.
+          </p>
+          <h3 class="central__title">Tous en action</h3>
+          <p class="central__text">
+            Tristique yonve cursu jam nulla quam loreipsu gravida adipiscing
+            lorem
+          </p>
+        </div>
+        <img
+          class="central__image"
+          src="images/pic01.jpg"
+          alt="une main un smartphone ouvert sur l'application photo, fixant un paysage" />
+        <div class="central__section">
+          <h3 class="central__title">Au delà du temps</h3>
+          <p class="central__text">
+            Sed adipiscing ornare risus. Morbi estes blandit sit et amet,
+            sagittis magna.
+          </p>
+          <h3 class="central__title">Portraits</h3>
+          <p class="central__text">
+            Pellentesque egestas sem. Suspendisse modo uliamcorper feugiat
+            lorem.
+          </p>
+        </div>
+      </section>
+      <section class="cta">
+        <h3 class="cta__title">Livrez-nous votre avis</h3>
+        <div class="cta__text">
+          <blockquote class="cta__quote">
+            "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
+            euismod in, pharetra magna etiam lorem ultricies in diam. Sed arcu
+            cras consequat."
+          </blockquote>
+          <cite class="cta__author">John H.</cite>
+        </div>
+        <a href="#" class="cta__btn">C'est à vous!</a>
+      </section>
+      <section class="articles">
+        <article class="article">
+          <img
+            class="article__image"
+            src="images/pic02.jpg"
+            alt="femme de dos sur un canoë sur un lac" />
+          <div class="article__text">
+            <h3 class="article__title">Sur la rivière</h3>
+            <p class="article__description">
+              Placerat ornare. Pellentesque od sed euismod in, pharetra ltricies
+              edarcu cas consequat
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <img
+            class="article__image"
+            src="images/pic03.jpg"
+            alt="pic d'une montagne avec ciel nuageux" />
+          <div class="article__text">
+            <h3 class="article__title">Ascension périlleuse</h3>
+            <p class="article__description">
+              Morbi in sem quis dui placerat Pellentesque odio nisi, euismod
+              pharetra lorem ipsum.
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <img
+            class="article__image"
+            src="images/pic04.jpg"
+            alt="vue plongée d'une personne montant les marche d'un escalier moderne" />
+          <div class="article__text">
+            <h3 class="article__title">Architecture</h3>
+            <p class="article__description">
+              Nam dui mi, tincidunt quis, accu an porttitor, facilisis luctus
+              que metus vulputate sem magna.
+            </p>
+          </div>
+        </article>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer" id="footer">
+      <div class="footer__top">
+        <h3 class="footer__title">Restons en contact</h3>
+        <ul class="footer__infos">
+          <li class="footer__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="footer__icon">
+              <path
+                d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z" />
+            </svg>
+            (33)2 979 79797
+          </li>
+          <li class="footer__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="footer__icon">
+              <path
+                d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z" />
+            </svg>
+            information@photoinnspiro.bzh
+          </li>
+          <li class="footer__item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="footer__icon">
+              <path
+                d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z" />
+            </svg>
+            123 Kerinon, VANNES, BZH 56000
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          Exercice Sélection: <strong>GBS Vannes</strong>. Réalisé pour:
+          <strong>Kercode</strong>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

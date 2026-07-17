@@ -3,10 +3,10 @@
 /* Variables */
 
 :root {
-  --text-black: #000;
-  --text-white: #fff;
-  --background-corail: #f78a76;
-  --background-bleu: #25a2c3;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary: #f78a76;
+  --color-secondary: #25a2c3;
 
   --font-logo: "Pacifico", sans-serif;
   --font-text: "Open Sans", sans-serif;
@@ -17,10 +17,9 @@
 
 /* Reset */
 
-
 /* Header */
 
-.header__title{
-    font-family: var(--font-logo);
-    color: var(--background-corail);
+.header__title {
+  font-family: var(--font-logo);
+  color: var(--background-corail);
 }
